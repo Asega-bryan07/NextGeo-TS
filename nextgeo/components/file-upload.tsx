@@ -19,7 +19,7 @@ export const FileUpload = ({
 
     if (value && fileType !== "pdf") {
         return (
-            <div className="relative h20 w20">
+            <div className="relative h-20 w-20">
                 <Image 
                 fill
                 src={value}
@@ -28,9 +28,10 @@ export const FileUpload = ({
                 />
                 <button onClick={() => onChange("")}
                 className="bg-rose-500/50 text-white p1 rounded-full
-                absolute top-0 right-0 shadow-sm">
+                absolute top-0 right-0 shadow-sm" type="button">
                     <X className="h-4 w-4"/>
                 </button>
+                
             </div>
         )
     }
