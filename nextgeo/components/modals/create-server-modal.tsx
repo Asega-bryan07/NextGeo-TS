@@ -25,7 +25,7 @@ import {Input} from "../ui/input";
 import { Button } from "../ui/button";
 import { FileUpload } from "../file-upload";
 import { useRouter } from "next/navigation";
-import { useModal } from "@/hooks/use-model-store";
+import { useModal } from "@/hooks/use-modal-store";
 
 
 const formSchema = z.object({
